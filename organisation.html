@@ -1,0 +1,549 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Organisation du cours &#8212; Cours Mathématique N7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="/Users/parent/opt/anaconda3/lib/python3.9/site-packages/sphinxcontrib/icon/node_modules/@fortawesome/fontawesome-free/css/all.min.css?v=53359634" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/mystyle.css?v=c2289a15" />
+    <link rel="stylesheet" type="text/css" href="_static/.ipynb_checkpoints/mystyle-checkpoint.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="/Users/parent/opt/anaconda3/lib/python3.9/site-packages/sphinxcontrib/icon/node_modules/@fortawesome/fontawesome-free/js/all.min.js?v=ec35c6c9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'organisation';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Travaux Pratiques" href="BE.html" />
+    <link rel="prev" title="Bienvenue aux cours de Mathématiques de Première année" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/N7.png" class="logo__image only-light" alt="Cours Mathématique N7 - Home"/>
+    <img src="_static/N7.png" class="logo__image only-dark pst-js-only" alt="Cours Mathématique N7 - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#"><i class="fa-solid fa-clipboard-list"></i> Organisation du cours</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BE.html"><i class="fa-solid fa-computer"></i> Travaux Pratiques</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/organisation.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1> Organisation du cours</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs"><i class="fa-solid fa-rocket"></i> Objectifs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ressources"><svg aria-hidden="true" class="sd-material-icon sd-material-icon-download" height="1.0em" version="4.0.0.63c5cb3" viewbox="0 0 24 24" width="1.0em"><g><rect fill="none" height="24" width="24"></rect></g><g><path d="M5,20h14v-2H5V20z M19,9h-4V3H9v6H5l7,7L19,9z"></path></g></svg> Ressources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequis"><i class="fa-solid fa-list-check"></i> Prérequis</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="organisation-du-cours">
+<h1><i class="fa-solid fa-clipboard-list"></i> Organisation du cours<a class="headerlink" href="#organisation-du-cours" title="Link to this heading">#</a></h1>
+<div class="dropdown admonition">
+<p class="admonition-title">Intégration et théorie de Fourier</p>
+<ul class="simple">
+<li><p><strong>Nombre d’heures :</strong>  6 cours (dont 1 en autonomie), 5 séances de TDs (dont 1 en autonomie)</p></li>
+<li><p><strong>Langue d’enseignement : Français</strong></p></li>
+<li><p><strong>Code :</strong> N5EE01A</p></li>
+<li><p><strong>Modalitées évaluation :</strong> 1 examen écrit, durée 1h15</p></li>
+</ul>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Analyse complexe, transformée de Laplace et en Z</p>
+<ul class="simple">
+<li><p><strong>Nombre d’heures :</strong>  5 cours, 3 séances de TDs (dont 1 en autonomie)</p></li>
+<li><p><strong>Langue d’enseignement : Français</strong></p></li>
+<li><p><strong>Code :</strong> N5EE01B</p></li>
+<li><p><strong>Modalitées évaluation :</strong> 1 examen écrit, durée 1h</p></li>
+</ul>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Probabilitées</p>
+<ul class="simple">
+<li><p><strong>Nombre d’heures :</strong>  6 cours, 5 séances de TDs, 4 BE (dont 1 en autonomie)</p></li>
+<li><p><strong>Langue d’enseignement : Français</strong></p></li>
+<li><p><strong>Code :</strong> N5EE01C</p></li>
+<li><p><strong>Modalitées évaluation :</strong> 1 examen écrit, durée 1h30. Code d’un BE noté</p></li>
+</ul>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Initiations aux Statistiques</p>
+<ul class="simple">
+<li><p><strong>Nombre d’heures :</strong>  7 cours (dont 2 en autonomie), 4 séances de TDs, 3 BE</p></li>
+<li><p><strong>Langue d’enseignement : Français</strong></p></li>
+<li><p><strong>Code :</strong> N6EE01C</p></li>
+<li><p><strong>Modalitées évaluation :</strong> 1 examen écrit, durée 1h30. Code d’un BE noté</p></li>
+</ul>
+</div>
+<section id="objectifs">
+<h2><i class="fa-solid fa-rocket"></i> Objectifs<a class="headerlink" href="#objectifs" title="Link to this heading">#</a></h2>
+<p><strong>Objectifs du cours “Intégration et théorie de Fourier” :</strong></p>
+<ul class="simple">
+<li><p>Comprendre les grands théorèmes de l’intégrale de Lebesgue et savoir les appliquer</p></li>
+<li><p>Savoir utiliser les techniques classiques de calculs d’intégrales</p></li>
+<li><p>Comprendre les séries de Fourier, et les mettre en pratiques</p></li>
+<li><p>Savoir utiliser et calculer la transformée de Fourier</p></li>
+<li><p>Comprendre le lien entre la théorie de Fourier et la convolution</p></li>
+</ul>
+<p><strong>Objectifs du cours “Analyse complexe, transformée de Laplace et en Z” :</strong></p>
+<ul class="simple">
+<li><p>Savoir manipuler les nombres complexes</p></li>
+<li><p>Comprendre et mettre en oeuvre les théorèmes principaux (théorème de Cauchy, lemmes de Jordan et théorème des résidus)</p></li>
+<li><p>Comprendre les séries de Fourier, et les mettre en pratiques</p></li>
+<li><p>Savoir utiliser et calculer la tranformée de Laplace</p></li>
+<li><p>Savoir utiliser et calculer la tranformée en Z</p></li>
+</ul>
+<p><strong>Objectifs du cours “Probabilitées” :</strong></p>
+<ul class="simple">
+<li><p>Comprendre les probabilitées,</p></li>
+<li><p>Connaître les principaux modèles du hasard (variable et vecteur) discrets et continus</p></li>
+<li><p>Comprendre les modalités de convergence</p></li>
+</ul>
+<p><strong>Objectifs du cours “Initiations aux Statistiques” :</strong></p>
+<ul class="simple">
+<li><p>Comprendre les principaux concepts de l’estimation, savoir utiliser l’estimateur de maximum de vraisemblance</p></li>
+<li><p>Comprendre les paramètres d’un tests et savoir mettre en oeuvre les test courants</p></li>
+<li><p>Comprendre et mettre les regressions linéaires multivariées</p></li>
+<li><p>Être capable de construire un test adapté à une situation</p></li>
+</ul>
+</section>
+<section id="ressources">
+<h2><svg version="4.0.0.63c5cb3" width="1.0em" height="1.0em" class="sd-material-icon sd-material-icon-download" viewBox="0 0 24 24" aria-hidden="true"><g><rect fill="none" height="24" width="24"></rect></g><g><path d="M5,20h14v-2H5V20z M19,9h-4V3H9v6H5l7,7L19,9z"></path></g></svg> Ressources<a class="headerlink" href="#ressources" title="Link to this heading">#</a></h2>
+<p><strong>Intégration et théorie de Fourier</strong></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours est disponible ici  <a class="reference download internal" download="" href="_downloads/57325ffca8b36e44dcb1cdb2ea6c0444/Polycopie%CC%81_Inte%CC%81gration_et_Analyse_Fourier.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Polycopié</span> <span class="pre">EEEA</span> <span class="pre">Intégration</span> <span class="pre">et</span> <span class="pre">théorie</span> <span class="pre">de</span> <span class="pre">Fourier</span></code></a></p>
+<p><strong>Analyse complexe, transformée de Laplace et en Z</strong></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours est disponible ici  <a class="reference download internal" download="" href="_downloads/f490cdaefc96822959e410d75227bfd1/poly_Analyse_Complexes.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Polycopié</span> <span class="pre">EEEA</span> <span class="pre">Analyse</span> <span class="pre">complexe,</span> <span class="pre">transformée</span> <span class="pre">de</span> <span class="pre">Laplace</span> <span class="pre">et</span> <span class="pre">en</span> <span class="pre">Z</span></code></a></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Les diapositives du cours par N. Dobigeon sont disponibles ici   <a class="reference download internal" download="" href="_downloads/1a94859255cd0367859daf9ef65ec31f/Slides_Complexe_1EEEA_fr.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Diapositives</span> <span class="pre">1EEEA</span> <span class="pre">Analyse</span> <span class="pre">complexe</span></code></a></p>
+<p><strong>Probabilitées</strong></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours sur cette partie est disponible ici <a class="reference download internal" download="" href="_downloads/6d2df927f46bacb45076f3aecd54dc12/poly_proba.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Polycopié</span> <span class="pre">EEEA</span> <span class="pre">Probabilitées</span></code></a></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Les diapositives du cours par M. Chabert et B. GAREL sont disponibles ici <a class="reference download internal" download="" href="_downloads/fbe42020e64d51432f115ad2f76d2491/slides_proba.zip"><code class="xref download docutils literal notranslate"><span class="pre">Diapositives</span> <span class="pre">1EEEA</span> <span class="pre">Probabilitées</span></code></a></p>
+<p><strong>Initiations aux Statistiques</strong></p>
+<p><svg version="4.0.0.63c5cb3" width="1.5em" height="1.5em" class="sd-material-icon sd-material-icon-web" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 9h10.5v3.5H4V9zm0 5.5h10.5V18H5c-.55 0-1-.45-1-1v-2.5zM19 18h-2.5V9H20v8c0 .55-.45 1-1 1z"></path></svg> Un site web associé à cette partie est disponible ici <a class="reference external" href="https://p-fraux.github.io/statistiques/intro.html">Initiations aux Statistiques</a>.</p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours sur cette partie est disponible ici <a class="reference download internal" download="" href="_downloads/51119951846cbfea449a2fd25d9c6497/poly_stats_2025.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Polycopié</span> <span class="pre">1EEEA</span> <span class="pre">Initiations</span> <span class="pre">aux</span> <span class="pre">Statistiques</span></code></a></p>
+<p><i class="fas fa-file-pdf" style="color: red;"></i> Les diapositives du cours par M. Chabert et B. GAREL  sont disponibles ici <a class="reference download internal" download="" href="_downloads/a04f9e4a23da466c0c3f586f4654e18a/Diapos_cours_stats.zip"><code class="xref download docutils literal notranslate"><span class="pre">Diapositives</span> <span class="pre">1EEEA</span> <span class="pre">Initiations</span> <span class="pre">aux</span> <span class="pre">Statistiques</span></code></a></p>
+</section>
+<section id="prerequis">
+<h2><i class="fa-solid fa-list-check"></i> Prérequis<a class="headerlink" href="#prerequis" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Analyse réelle</p></li>
+<li><p>Algébre linéaire</p></li>
+<li><p>Calcul différentiel</p></li>
+<li><p>Notions de probabilitées dans des univers finis</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Bienvenue aux cours de Mathématiques de Première année</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="BE.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><i class="fa-solid fa-computer"></i> Travaux Pratiques</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs"><i class="fa-solid fa-rocket"></i> Objectifs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ressources"><svg aria-hidden="true" class="sd-material-icon sd-material-icon-download" height="1.0em" version="4.0.0.63c5cb3" viewbox="0 0 24 24" width="1.0em"><g><rect fill="none" height="24" width="24"></rect></g><g><path d="M5,20h14v-2H5V20z M19,9h-4V3H9v6H5l7,7L19,9z"></path></g></svg> Ressources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequis"><i class="fa-solid fa-list-check"></i> Prérequis</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By P. FRAUX
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
