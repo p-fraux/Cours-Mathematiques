@@ -71,6 +71,7 @@ name: fig:comming soon
 
 
 ````{grid-item-card} 
+:link: https://p-fraux.github.io/Analyse_complexe/intro.html
 :text-align: center 
 :shadow: md 
 :class-header: bg-light
@@ -78,13 +79,13 @@ name: fig:comming soon
 
 {material-round}`link;2em` **Analyse complexe, transformée de Laplace et en Z**
 ^^^
-```{figure} 7292022_nuraghies_2_08.jpg
+```{figure} domaine_racine.png
 ---
 height: 200px
-name: fig:figure_trois_piliers
+
 ---
 ```
-*Image de nuraghies sur Freepik*
+
 ````
 
 `````
