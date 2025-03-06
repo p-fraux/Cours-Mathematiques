@@ -94,7 +94,9 @@ height: 200px
 
 `````{grid} 2
 
+
 ````{grid-item-card} 
+:link: https://p-fraux.github.io/Probabilitee/intro.html
 :text-align: center 
 :shadow: md 
 :class-header: bg-light
@@ -102,13 +104,13 @@ height: 200px
 
 {material-round}`link;2em` **Probabilitées**
 ^^^
-```{figure} 7292022_nuraghies_2_08.jpg
+```{figure} LGN.png
 ---
 height: 200px
-name: fig:comming soon
+name: fig:figure_trois_piliers
 ---
 ```
-*Image de nuraghies sur Freepik*
+
 ````
 
 

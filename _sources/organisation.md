@@ -90,6 +90,7 @@
 
 **Analyse complexe, transformée de Laplace et en Z**
 
+{material-round}`web;1.5em` Un site web associé à cette partie est disponible ici [Analyse complexe, transformée de Laplace et en Z](https://p-fraux.github.io/Analyse_complexe/intro.html).
 
 <i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours est disponible ici  {download}`Polycopié EEEA Analyse complexe, transformée de Laplace et en Z <./downloads/poly_Analyse_Complexes.pdf>`
 
