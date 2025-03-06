@@ -101,6 +101,8 @@
 
 **Probabilitées**
 
+{material-round}`web;1.5em` Un site web associé à cette partie est disponible ici [Probabilitées](https://p-fraux.github.io/Probabilitee/intro.html).
+
 <i class="fas fa-file-pdf" style="color: red;"></i> Le polycopié de cours sur cette partie est disponible ici {download}`Polycopié EEEA Probabilitées <./downloads/poly_proba.pdf>`
 
 <i class="fas fa-file-pdf" style="color: red;"></i> Les diapositives du cours par M. Chabert et B. GAREL sont disponibles ici {download}`Diapositives 1EEEA Probabilitées <./downloads/slides_proba.zip>`
