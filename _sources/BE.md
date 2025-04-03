@@ -20,3 +20,5 @@ Le complement offre une occasion de s'entrainer avant la scéance notée
 Les BE de statistiques reprennent et illustrent les notions d'estimation (première séance) et les notions de test et de regression linéaire (deuxième séance)
 
 <i class="fas fa-file-pdf" style="color: red;"></i> Le sujet des BE de statistique {download}`de la première séance <./downloads/BE_1_stat_2023_2024.pdf>` et {download}`de la deuxième séance <./downloads/BE_2_stat_2023_2024.pdf>`
+
+<i class="fa-solid fa-laptop" style="color: red;"></i> Les suggestions de corrections des BE de statistique {download}`de la première séance <./downloads/correction_script_BE1.zip>` et {download}`de la deuxième séance <./downloads/correction_script_BE2.zip>` écrit avec M. Essafri.
